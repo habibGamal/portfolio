@@ -44,7 +44,7 @@ html{
     @apply flex-row;
 }
 .btn-xred {
-    @apply rounded bg-xred font-bold py-2 px-4 focus-visible:opacity-5;
+    @apply rounded bg-xred font-bold py-2 px-4 focus:bg-red-600;
 }
 // svg
 .svg {
